@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>Brian Alexander's Resume</title>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}" />
+	</head>
+	<body>
+		<div class="page">
+			<table id="contact_info">
+			<tr>
+			<td class="dates" id="contact_name">Brian Alexander</td>
+			</tr>
+                        <tr>
+                        <td style="width: 450px;">
+			<p>
+			Austin, TX<br />
+			214.762.5564<br />
+			briandanielalexander@gmail.com
+			</p>
+			</td>
+			<!--<td><img class="resume_pic" src="{{ MEDIA_URL }}/media/images/resume_pic.jpg" alt="Bethel, Alaska"/></td>-->
+			</tr>
+			<tr>
+			<td><a href="http://www.linkedin.com/pub/brian-alexander/26/a63/962" target="_blank">http://www.linkedin.com/pub/brian-alexander/26/a63/962</a></td>
+                        </tr>
+                        </table>
+			<br />
+
+			<div id="objective">
+				<h3 class="header">SUMMARY</h3>
+				<hr />
+				{% for obj in objectives %}
+					{{ obj.objective |safe }}
+				{% endfor %}
+			</div>
+			<br />
+
+			<div id="experience">
+				<h3 class="header">EXPERIENCE</h3>
+				<hr />
+				{% for job in jobs %}
+				<table>
+					<tr>
+					<td class="dates">{{ job.dates_of_employment |safe }}</td>
+					<td class="company_name">{{ job.company_name }}</td>
+					<td class="job_location">{{ job.job_location }}</td>
+					</tr>
+					<tr><td class="position_title">{{ job.position_title }}</td></tr>
+				</table>
+				<ul>
+					{{job.job_description|safe }}
+				</ul>
+				<br />
+				{% endfor %}
+				<!--<p style="font-size: 80%;"><span class="superscript">1</span>&nbsp;Held same position previously: January 2009 - June 2009</p>-->
+			</div>
+
+
+			<div id="education">
+				<h3 class="header">EDUCATION</h3>
+				<hr />
+
+				<table>
+				{% for edu in education %}
+					{{ edu.education |safe }}
+				{% endfor %}
+				</table>
+			</div>
+
+			<div id="skills">
+				<h3 class="header">SKILLS</h3>
+				<hr />
+				{% for skill in skills %}
+					{{ skill.skills |safe }}
+				{% endfor %}
+			</div>
+<!--
+			<div id="special">
+				<h3 class="header">SPECIAL INTEREST</h3>
+				<hr />
+				{% for interest in special_interest %}
+					{{ interest.interest |safe }}
+				{% endfor %}
+			</div>-->
+<!--
+			<div id="project">
+				<h3 class="header">PROJECTS</h3>
+				<hr />
+				<ul>
+					{% for project in projects %}
+						{{ project.projects |safe }}
+					{% endfor %}
+				</ul>
+			</div>
+-->
+		</div>
+	</body>
+</html>

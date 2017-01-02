@@ -1,0 +1,128 @@
+body
+{
+	margin: auto;
+	width: 1024px;
+	background-image: url('../media/images/macfullscreenapbg.png');
+	/*border: 4px solid #660066;*/
+}
+
+a{text-decoration:none;}
+/*a:link {color:#0000FF;}     /* unvisited link */
+/*a:visited {color:#3333CC;}  /* visited link */
+/*a:hover {color:#33AD33} /* mouse over link */
+/*a:active {color:#000000;}  /* selected link */
+.superscript { position: relative; top: -0.5em; font-size: 80%; }
+a:link {color:#171717;}     /* unvisited link */
+a:visited {color:#171717;}  /* visited link */
+a:hover {color:#33AD33;} /* mouse over link */
+a:active {color:#171717;}  /* selected link */
+
+ul
+{
+	list-style-type: square;
+}
+
+li
+{
+	margin-bottom : 1pt;
+}
+
+.page
+{
+	background-color: #FFFFFF;
+	border-radius: 20px;
+        padding-bottom: 3px;
+}
+
+/*.resume_pic
+{
+	width: 150px; 
+	height: 128px;
+	margin-left: -25%;
+	margin-top: 5%;
+
+}*/
+
+.header
+{
+	font-family: "Courier New";
+	color: #2B2B2B;
+	text-align:left;	
+}
+
+#contact_info
+{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 14px;
+        /*border-style:dotted;
+	border-width:thin;*/
+}
+
+#contact_name
+{
+       /*color: blue;*/
+       font-size: 35px;
+}
+
+#objective
+{
+
+	font-family: "Times New Roman";
+	font-size: 14px;
+	/*border-style:dotted;
+	border-width:thin;*/
+}
+
+#experience
+{
+        font-size: 14px;
+/*	border-style:dotted;
+	border-width:thin;*/
+}
+
+#special
+{
+        font-size: 14px;
+/*	border-style:dotted;
+	border-width:thin;*/
+}
+
+#education
+{
+        font-size: 14px;
+/*	border-style:dotted;
+	border-width:thin;*/
+}
+
+#skills
+{
+        font-size: 14px;
+/*	border-style:dotted;
+	border-width:thin;*/
+}
+
+.dates
+{
+	width: 450px;
+}
+
+.company_name
+{
+	color: #171717;
+	font-weight: bold;
+	width: 450px;
+
+}
+
+.job_location
+{
+	color: #171717;
+}
+
+.position_title
+{
+	color: #1A1A1A;
+	font-weight: bold;
+}
