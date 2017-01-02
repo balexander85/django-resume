@@ -7,4 +7,3 @@ Instructions are in progress...
 * pip install -r requirements.txt
 * django-admin startproject [project_name]
 * python manage.py startapp main
-*
