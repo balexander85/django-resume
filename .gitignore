@@ -1,5 +1,5 @@
-# Settings
-settings.py
+env/*
+protected_settings_*.json
 
 # Mac OS X
 *.DS_Store
