@@ -24,14 +24,14 @@ ul
 
 li
 {
-	margin-bottom : 1pt;
+	margin-bottom : 1px;
 }
 
 .page
 {
 	background-color: #FFFFFF;
 	border-radius: 20px;
-        padding-bottom: 3px;
+    padding: 12px;
 }
 
 /*.resume_pic
@@ -52,18 +52,18 @@ li
 
 #contact_info
 {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        font-size: 14px;
-        /*border-style:dotted;
-	border-width:thin;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    /*border-style:dotted;
+    border-width:thin;*/
 }
 
 #contact_name
 {
-       /*color: blue;*/
-       font-size: 35px;
+    /*color: blue;*/
+    font-size: 35px;
 }
 
 #objective
@@ -77,28 +77,28 @@ li
 
 #experience
 {
-        font-size: 14px;
+    font-size: 14px;
 /*	border-style:dotted;
 	border-width:thin;*/
 }
 
 #special
 {
-        font-size: 14px;
+    font-size: 14px;
 /*	border-style:dotted;
 	border-width:thin;*/
 }
 
 #education
 {
-        font-size: 14px;
+    font-size: 14px;
 /*	border-style:dotted;
 	border-width:thin;*/
 }
 
 #skills
 {
-        font-size: 14px;
+    font-size: 14px;
 /*	border-style:dotted;
 	border-width:thin;*/
 }
@@ -119,6 +119,7 @@ li
 .job_location
 {
 	color: #171717;
+	width: 112px;
 }
 
 .position_title
