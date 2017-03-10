@@ -1,5 +1,6 @@
 env/*
 protected_settings_*.json
+public/resume/static/*
 
 # Mac OS X
 *.DS_Store
